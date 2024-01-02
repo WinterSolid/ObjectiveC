@@ -15,13 +15,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point - Creating a manual view
-    self.window = UIWindow.new;
-    //make window invisible
-    [self.window makeKeyAndVisible];
-    
-    
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
